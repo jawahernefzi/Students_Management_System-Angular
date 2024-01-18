@@ -1,0 +1,21 @@
+json-server --watch db.json
+
+{
+  "etudiant": [
+    {   "id":1,
+      "nom":"ahmed",
+      "prenom":"tounssi",
+      "classe":["C1"]
+    },
+    {   "id":2,
+    "nom":"ahmed",
+    "prenom":"tounssi",
+    "classe":["C1"]
+    },
+    {   "id":2,
+    "nom":"ahmed",
+    "prenom":"tounssi",
+    "classe":["C1"]
+    }
+  ]
+  }

@@ -1,0 +1,62 @@
+input
+,button
+{
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+#addBtn{
+  background-color: RGB(148, 0, 211);
+  color: white;
+  width: 13%;
+  height: 50px;
+  transition: .3s;
+  font-size: 15px;
+}
+#addBtn:hover{
+  font-size: 18px;
+  width: 15%;
+
+  border-radius: 15px;
+}
+.none{
+  display: none;
+}
+*{
+  color: RGB(148, 0, 211);
+}
+h1{
+  text-align: left;
+}
+th,input,td{
+  color: black;
+  text-align: center;
+
+}
+
+input{
+  width: 100px;
+  margin: auto;
+}
+
+.br
+{
+  height: 50px;
+}
+table
+{
+  box-shadow: rgba(50, 50, 93, 0.07) 0px 6px 12px -2px, rgba(0, 0, 0, 0.07) 0px 3px 7px -3px;
+
+  border: .5px solid #ccc;
+  border-radius: 5px;
+}
+
+.h1{
+  width: 80%;
+}
+.hed
+{
+  display: flex;
+  justify-content: space-between;
+}

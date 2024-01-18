@@ -1,0 +1,30 @@
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: RGB(148, 0, 211);
+  --bs-btn-border-color: RGB(148, 0, 211);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: RGB(163, 66, 205);
+  --bs-btn-hover-border-color: RGB(163, 66, 205);
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: RGB(148, 0, 211);
+  --bs-btn-active-border-color: RGB(148, 0, 211);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: RGB(148, 0, 211);
+  --bs-btn-disabled-border-color: RGB(148, 0, 211);
+}
+
+h1{
+  text-align: left;
+  color: RGB(148, 0, 211);
+  margin-bottom: 30px;
+}
+.validBtn{
+  display: flex;
+  justify-content: flex-end;
+}
+.impo
+{
+  color: red;
+}

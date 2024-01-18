@@ -1,0 +1,92 @@
+/* You can add global styles to this file, and also import other style files */
+
+.none
+{
+  display: none;
+}
+::selection
+{
+  color: white;
+  background-color: RGB(148, 0, 211);
+}
+
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: RGB(148, 0, 211);
+  --bs-btn-border-color: RGB(148, 0, 211);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: RGB(163, 66, 205);
+  --bs-btn-hover-border-color: RGB(163, 66, 205);
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: RGB(148, 0, 211);
+  --bs-btn-active-border-color: RGB(148, 0, 211);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: RGB(148, 0, 211);
+  --bs-btn-disabled-border-color: RGB(148, 0, 211);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: RGB(148, 0, 211);
+  --bs-btn-border-color: RGB(148, 0, 211);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: RGB(148, 0, 211);
+  --bs-btn-hover-border-color: RGB(148, 0, 211);
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: RGB(148, 0, 211);
+  --bs-btn-active-border-color: RGB(148, 0, 211);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: RGB(148, 0, 211);
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: RGB(148, 0, 211);
+  --bs-gradient: none;
+}
+.componant
+{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  padding: 35px;
+  border-radius: 15px;
+  background-color: white;
+}
+.logo{
+font-family: 'Clicker Script', cursive;
+font-size: 25px;
+border-radius: 5px;
+color: RGB(148, 0, 211);
+padding: 0 10px;
+font-weight: 900;
+transition: .5s;
+}
+.logo img{
+  width: 100px;
+}
+.logo:hover{
+  padding: 0 25px;
+
+
+}
+.noneBtn
+{
+  border: none;
+  background: none;
+}
+.nav-link{
+  transition: .3s;
+
+}
+.link-dark{
+  font-weight: bold;
+}
+.nav-link:hover{
+  font-size: 20px;
+
+}
+
+
+.nom{
+  width: fit-content;
+}
+

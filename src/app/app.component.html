@@ -1,0 +1,51 @@
+<div class="all">
+
+<div class="container">
+  <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+
+      <a  class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <a  class="text-decoration-none"><span class="logo"><img src="./assets/images/logo.png" alt=""></span></a>
+      </a>
+
+      <ul id="nav" class="none nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><button (click)="toList()" class=" nav-link noneBtn px-2 link-secondary link-dark">List Student</button></li>
+        <li><button (click)="toAdd()" class="nav-link px-2 noneBtn link-secondary">Add Student</button></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" (click)="logOut()" class="btn btn-primary">Log out</button>
+      </div>
+
+  </header>
+
+
+
+
+
+
+  <div class="componant">
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Nefzi Jawaher, ISETR</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <!-- <fa-icon [icon]="['fab', 'linkedin']" ></fa-icon>
+        <fa-icon [icon]="['fa', 'github']" ></fa-icon> -->
+
+      </ul>
+    </footer>
+  </div>
+
+
+
+</div>

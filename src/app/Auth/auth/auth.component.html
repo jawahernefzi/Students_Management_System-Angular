@@ -1,0 +1,24 @@
+<div class="cont">
+  <form #f="ngForm" (submit)="logIn(f)">
+    <div class="mb-3">
+      <div class="alert alert-warning none" id="alert1">Invalid User</div>
+      <div class="alert alert-danger none" id="alert2">Invalid User</div>
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mail" name="mail" ngModel required #mail="ngModel">
+      <div *ngIf="mail.invalid && mail.touched" class="alert alert-danger" role="alert">
+        This filed is mandatory!
+      </div>
+      <div id="emailHelp" class="form-text" *ngIf="!mail.touched">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" >Password</label>
+      <input type="password" class="form-control" id="password" name="password" ngModel required #password="ngModel">
+      <div *ngIf="password.invalid && password.touched" class="alert alert-danger" role="alert">
+        This filed is mandatory!
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</div>

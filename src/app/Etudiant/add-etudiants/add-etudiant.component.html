@@ -1,0 +1,33 @@
+<div class="row mb-3" >
+  <h1>Add Student</h1>
+  <form (ngSubmit)="addEtudiant(f1)" #f1="ngForm" >
+    <div class="mb-3">
+      <label for="prenom" class="form-label">First Name <span class="impo">*</span></label>
+      <input type="text" id="prenom" class="form-control" name="prenom" ngModel required #t="ngModel" />
+      <div *ngIf="t.invalid && t.touched" class="alert alert-danger" role="alert">
+        This filed is mandatory!
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="nom" class="form-label">Last Name <span class="impo">*</span></label>
+      <input type="text" id="nom" class="form-control" name="nom" ngModel required #a="ngModel" />
+      <div *ngIf="a.invalid && a.touched" class="alert alert-danger" role="alert">
+        This filed is mandatory!
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="classe" class="form-label">Class <span class="impo">*</span></label>
+
+      <select class="form-select col-12" name="classe" id="classe" ngModel required #p="ngModel">
+        <option value="" >Choose the class</option>
+        <option value="C1">C1</option>
+        <option value="C2">C2</option>
+        <option value="C3">C3</option>
+      </select>
+    </div>
+    <div class="validBtn">
+      <button class="btn btn-primary" >Submit</button>
+    </div>
+
+  </form>
+  </div>
